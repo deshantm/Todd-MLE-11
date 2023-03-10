@@ -27,4 +27,4 @@ RUN . /opt/conda/etc/profile.d/conda.sh && \
 EXPOSE 8000
 
 # Run app.py when the container launches
-CMD ["uvicorn", "main:app"," --reload", "--workers 1", "-host", "0.0.0.0", "--port", "8000"]
+ENTRYPOINT ["/app/entrypoint.sh"]
