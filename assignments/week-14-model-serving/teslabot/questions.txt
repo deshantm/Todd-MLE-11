@@ -1,0 +1,32 @@
+What are 3 advantages of deploying using Model Serving methods Vs. deploying on GitHub Pages or HuggingFace for free?
+
+Scalability
+Control/Customization
+Quality of service/uptime/availability guarantees
+
+What is ML model deployment?
+
+Making a trained model available for use by an application or API 
+(either within an organization or publicly.) Typically this will involve
+wrapping an API around the model predictions. It may also require converting 
+the model to a format that can be used by the application or API layer.
+
+What is Causal Inference and How Does It Work?
+
+Causal inference is the process of figuring out if one thing causes another. 
+
+To establish causation, researchers look for a relationship between the two things, 
+make sure the cause comes before the effect, and rule out other explanations. 
+
+Reserchers do this by conducting experiments or using statistical methods to control 
+for other factors. This helps researchers identify the cause-and-effect relationships 
+between variables and make informed decisions about interventions and policies.
+
+What is serverless deployment and how its compared with deployment on server?
+
+A serverless deployment is one is which some third party (typically a cloud provider)
+manages the underlying server while the application deployer is only responsible for the
+app or container, and other higher level resources. The main difference between a 
+serverless deployment and deployment on a server is that the deployer does not interact
+directly with a server/VM, but instead using the tooling to deploy an app or container
+using the tooling provided by the service provider.
